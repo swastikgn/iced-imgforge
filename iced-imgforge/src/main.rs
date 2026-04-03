@@ -259,7 +259,6 @@ impl App {
                         "Images",
                         &["png", "jpg", "jpeg", "webp", "bmp", "tif", "tiff"],
                     )
-                    .set_directory("~/Pictures")
                     .pick_file();
 
                 if let Some(path) = picked {
