@@ -1,0 +1,11 @@
+[package]
+name = "iced-imgforge"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.44"
+iced = { version = "0.14.0", features = ["image", "tokio"] }
+iced_aw = { version = "0.13.1", features = ["selection_list"] }
+image = "0.25.10"
+rfd = "0.17.2"
