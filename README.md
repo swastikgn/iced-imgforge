@@ -55,7 +55,7 @@ A desktop image format converter built with Rust and iced. Load an image, pick a
 
 ### Build from source
 ```bash
-git clone https://github.com/TESTDEV/imgforge
+git clone https://github.com/swastikgn/imgforge
 cd imgforge
 cargo build --release
 ```
